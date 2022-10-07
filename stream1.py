@@ -9,7 +9,7 @@ def predict_note_authentication(a, b, c, d, e, f, g, h, i, j, k, l, m):
 
 
     prediction = loaded_model.predict([[a, b, c, d, e, f, g, h, i, j, k, l, m]]
-    print(prediction)
+    #print(prediction)
     return prediction
 
 
