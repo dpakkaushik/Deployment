@@ -1,4 +1,4 @@
-
+import joblib
 
 loaded_model = joblib.load("https://github.com/dpakkaushik/Deployment/blob/main/finalized_XGBoost_model.sav")
 
