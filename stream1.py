@@ -2,6 +2,11 @@
 
 loaded_model = joblib.load("https://github.com/dpakkaushik/Deployment/blob/main/finalized_XGBoost_model.sav")
 
+def predict_note_authentication(a, b, c, d, e, f, g, h, i, j, k, l, m):
+    
+    prediction = loaded_model.predict([[a, b, c, d, e, f, g, h, i, j, k, l, m]])
+    #print(prediction)
+    return prediction
 
 def main():
     st.title("Rossmann Store")
@@ -31,11 +36,7 @@ def main():
     if st.button("About"):
         st.text("Lets LEarn")
         st.text("Built with Streamlit")
-def predict_note_authentication(a, b, c, d, e, f, g, h, i, j, k, l, m):
-    
-    prediction = loaded_model.predict([[a, b, c, d, e, f, g, h, i, j, k, l, m]]
-    #print(prediction)
-    return prediction
+
 
 if __name__ == '__main__':
     main()
