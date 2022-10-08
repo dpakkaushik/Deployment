@@ -1,6 +1,6 @@
 import joblib
 
-loaded_model = joblib.load("https://github.com/dpakkaushik/Deployment/blob/main/finalized_XGBoost_model.sav")
+loaded_model = joblib.load("finalized_XGBoost_model.sav")
 
 def predict_note_authentication(a, b, c, d, e, f, g, h, i, j, k, l, m):
     
