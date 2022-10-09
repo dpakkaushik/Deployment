@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 import pickle as pkl
 
-loaded_model_pkl = pickle_loaded_model = pkl.load(open( "https://github.com/dpakkaushik/Deployment/blob/main/finalized_XGBoost_pickle_model.pkl",'rb'))
+loaded_model_pkl = pkl.load(open( "https://github.com/dpakkaushik/Deployment/blob/main/finalized_XGBoost_pickle_model.pkl",'rb'))
 
 #https://github.com/dpakkaushik/Deployment/blob/main/finalized_XGBoost_model.sav
 
