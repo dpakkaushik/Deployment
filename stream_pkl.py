@@ -20,7 +20,7 @@ def predict_note_authentication(a, b, c, d, e, f, g, h, i, j, k, l, m):
 #print(result)
 
 def main():
-    st.title("I Love You Babu")
+    st.title("Rossman Store")
     html_temp = """
     <div style="background-color:tomato;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit Bank Authenticator ML App </h2>
