@@ -2,7 +2,7 @@
 
 This Repository is part of Final Thesis project for my Diploma course in **Artificial Intelligence and Machine Learning**. The Data used for this project is taken from Kaggle site.
 
-Link for Data:https://www.kaggle.com/competitions/rossmann-store-sales/data
+Data: [Link](https://www.kaggle.com/competitions/rossmann-store-sales/data)
 
 The project is deployed using streamlit.You can see a URL after deployment and that will be the URL of your Link : https://dpakkaushik-deployment-rossman-xgb-ybsco7.streamlitapp.com/
 
