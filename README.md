@@ -1,6 +1,6 @@
 # Store Sales Forecast
 
-This Repository is part of Final Thesis project for my diploma course in Artificial Intelligence and Machine Learning. The Data used for this project is taken from Kaggle site.
+This Repository is part of Final Thesis project for my Diploma course in **Artificial Intelligence and Machine Learning**. The Data used for this project is taken from Kaggle site.
 
 Link for Data:https://www.kaggle.com/competitions/rossmann-store-sales/data
 
